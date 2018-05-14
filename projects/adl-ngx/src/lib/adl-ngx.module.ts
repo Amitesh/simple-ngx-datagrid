@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { DatagridComponent } from './datagrid/datagrid.component';
+import { NgxDatagridComponent } from './ngx-datagrid/ngx-datagrid.component';
 
 @NgModule({
   imports: [],
-  declarations: [DatagridComponent],
-  exports: [DatagridComponent]
+  declarations: [NgxDatagridComponent],
+  exports: [NgxDatagridComponent]
 })
 export class AdlNgxModule { }
