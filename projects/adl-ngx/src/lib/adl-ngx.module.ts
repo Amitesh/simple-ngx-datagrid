@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
+import { NgxDatatableModule } from "@swimlane/ngx-datatable";
 import { NgxDatagridComponent } from './ngx-datagrid/ngx-datagrid.component';
 
 @NgModule({
-  imports: [],
+  imports: [NgxDatatableModule],
   declarations: [NgxDatagridComponent],
   exports: [NgxDatagridComponent]
 })
