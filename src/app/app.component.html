@@ -1,1 +1,12 @@
-<adl-ngx-datagrid></adl-ngx-datagrid>
+<adl-ngx-datagrid>
+	<ngx-datatable
+        class="material"
+        [rows]="rows"
+        [columns]="[{name:'Name'},{name:'Gender'},{name:'City', prop: 'address.city'}]"
+        [columnMode]="'force'"
+        [headerHeight]="50"
+        [footerHeight]="50"
+        [rowHeight]="'auto'"
+        [limit]="10">
+      </ngx-datatable>
+</adl-ngx-datagrid>

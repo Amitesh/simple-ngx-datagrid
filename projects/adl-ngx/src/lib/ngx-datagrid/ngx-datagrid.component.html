@@ -2,14 +2,5 @@
   ngx datagrid works!
 </p>
 <div>
-	<ngx-datatable
-        class="material"
-        [rows]="rows"
-        [columns]="[{name:'Name'},{name:'Gender'},{name:'City', prop: 'address.city'}]"
-        [columnMode]="'force'"
-        [headerHeight]="50"
-        [footerHeight]="50"
-        [rowHeight]="'auto'"
-        [limit]="10">
-      </ngx-datatable>
+	<ng-content></ng-content>
 </div>
